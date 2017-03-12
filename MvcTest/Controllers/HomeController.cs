@@ -15,14 +15,14 @@ namespace MvcTest.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.h";
+            ViewBag.Message = "Your application description page.";
 
             return View();
         }
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.h";
+            ViewBag.Message = "Your contact page.";
 
             return View();
         }
